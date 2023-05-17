@@ -11,20 +11,21 @@
 	<form action="#" method="post">
 		<div>
 			<label for="name">Name</label>
-			<input type="text" name="name" placeholder="Name" required>
+			<input type="text" name="name" id="name" placeholder="Name" required>
 		</div>
 		<div>
 			<label for="email">Email</label>
-			<input type="email" name="email" placeholder="Email" required>
+			<input type="email" name="email" id=email" placeholder="Email" required>
 		</div>
 		<div>
-			<label for="gender">Name</label>
-			<input type="radio" name="gender" required>Male
-			<input type="radio" name="gender" required>Female
+			 <label for="gender_m">M</label>
+			  <input type="radio" id="gender_m" name="gender" required>
+			  <label for="gender">F</label>
+			  <input type="radio" id="gender_f" name="gender" required>
 		</div>
 		<div>
-			<label for="Car Brands">Car Brands</label>
-			<select>
+			<label for="car Brands">Car Brands</label>
+			<select name="car" id="car" placeholder="--Please choose an option--">
 				<option>BMW</option>
 				<option>Audi</option>
 				<option>Mercedez</option>
@@ -32,26 +33,26 @@
 		</div>
 		<div>
 			<label for="age">Age</label>
-			<input type="number" name="age" placeholder="Age" required>
+			<input type="number" name="age" id="age" placeholder="Age" required>
 		</div>
 		<div>
-			<label for="DOB">DOB </label>
-			<input type="datetime-local" name="DOB" required>
+			<label for="dob">DOB </label>
+			<input type="date" name="dob" id="dob" required>
 		</div>
 		<div>
 			<label for="phonenum">Phone Number </label>
-			<input type="tel" name="phonenum" placeholder="xxx-xxx-xxxx" required>
+			<input type="tel" name="phonenum" id="phonenum" placeholder="xxx-xxx-xxxx" required>
 		</div>
 		<div>
 			<label for="password">Password</label>
-			<input type="password" name="password" placeholder="Password" required>
+			<input type="password" name="password" id="password" placeholder="Password" required>
 		</div>
 		<div>
 			<label for="checkbox">Checkbox</label>
-			<input type="checkbox" name="checkbox>"
+			<input type="checkbox" id="checkbox" name="checkbox>"
 		</div>
 		<div>
-			<input type="submit" name="submit">
+			<button type="submit">Submit</button>
 		</div>
 	</form>
     <script type="text/javascript" src="./script.js">
